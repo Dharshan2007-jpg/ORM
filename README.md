@@ -2,7 +2,7 @@
 ## Date: 19.09.2025
 
 ## AIM
-To develop a Django application to store and retrieve data from a Movies Database using Object Relational Mapping(ORM).
+To develop a Django application to store and retrieve data from a car Database using Object Relational Mapping(ORM).
 
 
 ## DESIGN STEPS
@@ -21,7 +21,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-'''
+~~~
 admin.py
 
 from django.contrib import admin
@@ -43,7 +43,7 @@ class carAdmin(admin.ModelAdmin):
     list_display=('cid','cname','rate','year','horse_power')
 
 
-'''
+~~~
 
 ## OUTPUT
 
